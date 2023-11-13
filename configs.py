@@ -3,17 +3,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+  API_ID = int(os.environ.get("API_ID", "25826048"))
+  API_HASH = os.environ.get("API_HASH", "b486ee260537697fdfc56b2b61cbc049")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6882915473:AAGXS0a_EbgTwa03jQmYir8ZIqDhKPz1VDk")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "@file_storages_robot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002077818896"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "GreyMatterslinks.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "20eb8456008878c0349fc79d40fb4d1634cccf12")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6324330202"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002024026566")
+  LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002126379861")
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -34,11 +34,10 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [@PredatorHackerzZ](https://github.com/vikas-841)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/DonateXrobot) or MrAbhi2k3@apl
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent FileStore Bot.
